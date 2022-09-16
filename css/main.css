@@ -82,10 +82,69 @@ body {
     line-height: 2;
 
 }
-.header-image {
-}
+
 .header-heading{
     margin-bottom: 20px;
     font-size: 44px;
     font-weight: 600;
 }
+
+/* services */
+
+.services {
+    padding: 90px 0;
+    background-color: white;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.service-card {
+
+}
+.service-card p{
+   line-height: 2; 
+}
+.service-card-image {
+    margin-bottom: 30px;
+}
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: #f1f1f1;
+    padding: 90px 0;
+}
+
+.potrfolio-title {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.project + .project {
+    margin-top: 90px;
+}
+.project {
+    text-align: center;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px;
+   
+    
+}
+.project-title a {
+    color: black;
+    text-decoration: underline;
+}
+
