@@ -63,6 +63,9 @@ body {
 .nav-link.active {
   color: #606060;
 }
+.nav-button{
+    display: none;
+}
 
 /* header content */
 
@@ -98,8 +101,9 @@ body {
   column-gap: 30px;
   justify-content: center;
 }
-.service-card {
-}
+
+
+
 .service-card p {
   line-height: 2;
 }

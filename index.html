@@ -16,13 +16,13 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header ">
       <div class="container">
         <!-- Header nav  -->
         <div class="header-nav">
           <a href="#!" class="logo">Antonio</a>
 
-          <nav class="nav">
+          <nav id='nav' class="nav">
             <ul class="nav-list">
               <li class="nav-item">
                 <a class="nav-link active" href="#!">HOME</a>
@@ -36,6 +36,10 @@
                 <a class="nav-link" href="#!">CONTACT</a>
               </li>
             </ul>
+            <button id="nav-btn" class="nav-button">
+                <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="navbar">
+            </button>
+
           </nav>
         </div>
 
@@ -106,48 +110,70 @@
     </section>
 
     <section class="portfolio">
-        <div class="container">
-            <div class="potrfolio-title">
-                <h2 class="title-1">PORTFOLIO</h2>
-            </div>
-            <div class="project">
-                <img src="./img/portfolio/01.jpg" alt="Online fashion store" class="project-img">
-                <h3 class="project-title"><a href="#!">Online fashion store - Homepage</a></h3>
-            </div>
-            <div class="project">
-                <img src="./img/portfolio/02.jpg" alt="Reebok store" class="project-img">
-                <h3 class="project-title"><a href="#!">Reebok store - Concept</a></h3>
-            </div>
-            <div class="project">
-                <img src="./img/portfolio/03.jpg" alt="Braun Landing Page" class="project-img">
-                <h3 class="project-title"><a href="#!">Braun Landing Page - Concept</a></h3>
-            </div>
+      <div class="container">
+        <div class="potrfolio-title">
+          <h2 class="title-1">PORTFOLIO</h2>
         </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/01.jpg"
+            alt="Online fashion store"
+            class="project-img"
+          />
+          <h3 class="project-title">
+            <a href="#!">Online fashion store - Homepage</a>
+          </h3>
+        </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/02.jpg"
+            alt="Reebok store"
+            class="project-img"
+          />
+          <h3 class="project-title"><a href="#!">Reebok store - Concept</a></h3>
+        </div>
+        <div class="project">
+          <img
+            src="./img/portfolio/03.jpg"
+            alt="Braun Landing Page"
+            class="project-img"
+          />
+          <h3 class="project-title">
+            <a href="#!">Braun Landing Page - Concept</a>
+          </h3>
+        </div>
+      </div>
     </section>
 
     <footer class="contacts">
-        <div class="container">
-            <div class="contacts-title">
-                <h2 class="title-2">Contacts</h2>
-            </div>
-            <div class="contacts-content">
-                <p>Want to know more or just chat?<br> You are welcome!</p>
-            </div>
-            <div class="contacts-button">
-                <a href="#!" class="btn">Send message</a>
-            </div>
-            <div class="contacts-social">
-                <a href="#!"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"></a>
-                <a href="#!"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
-                <a href="#!"><img src="./img/socials/Behance.svg" alt="Behance"></a>
-                <a href="#!"><img src="./img/socials/Dribble.svg" alt="Dribble"></a>
-            </div>
-            <div class="contacts-footer">
-                <p>Like me on <br>LinkedIn, Instargam, Behance, Dribble</p>
-            </div>
+      <div class="container">
+        <div class="contacts-title">
+          <h2 class="title-2">Contacts</h2>
         </div>
+        <div class="contacts-content">
+          <p>
+            Want to know more or just chat?<br />
+            You are welcome!
+          </p>
+        </div>
+        <div class="contacts-button">
+          <a href="#!" class="btn">Send message</a>
+        </div>
+        <div class="contacts-social">
+          <a href="#!"
+            ><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"
+          /></a>
+          <a href="#!"
+            ><img src="./img/socials/Instargam.svg" alt="Instargam"
+          /></a>
+          <a href="#!"><img src="./img/socials/Behance.svg" alt="Behance" /></a>
+          <a href="#!"><img src="./img/socials/Dribble.svg" alt="Dribble" /></a>
+        </div>
+        <div class="contacts-footer">
+          <p>Like me on <br />LinkedIn, Instargam, Behance, Dribble</p>
+        </div>
+      </div>
     </footer>
-
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
