@@ -16,13 +16,13 @@
     />
   </head>
   <body>
-    <header class="header ">
+    <header class="header">
       <div class="container">
         <!-- Header nav  -->
         <div class="header-nav">
           <a href="#!" class="logo">Antonio</a>
 
-          <nav id='nav' class="nav">
+          <nav id="nav" class="nav">
             <ul class="nav-list">
               <li class="nav-item">
                 <a class="nav-link active" href="#!">HOME</a>
@@ -37,18 +37,21 @@
               </li>
             </ul>
             <button id="nav-btn" class="nav-button">
-                <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="navbar">
+              <img
+                id="nav-btn-img"
+                src="./img/icons/nav-open.svg"
+                alt="navbar"
+              />
             </button>
-
           </nav>
         </div>
 
         <!-- Header content -->
         <div class="header-row">
-          <div class="header-content">
+          <div class="header-content" data-aos="fade-up">
             <h1 class="header-heading">
               Anton Hai <br />
-              Frontend Javascript Developer
+              <span>Frontend Javascript Developer</span>
             </h1>
             <p>
               I like to experiment, create beautiful websites and understandable
@@ -56,8 +59,14 @@
               not afraid of interesting and complex projects.
             </p>
           </div>
-          <div class="header-image">
-            <img src="./img/header/hero.png" alt="Antonio" />
+          <div class="header-image" data-aos="fade-left">
+            <picture>
+              <source
+                media="(max-width 700px)"
+                srcset="./img/header/hero-mobile.png"
+              />
+              <img src="./img/header/hero.png" alt="Antonio" />
+            </picture>
           </div>
         </div>
       </div>
@@ -66,7 +75,7 @@
     <section class="services">
       <div class="container">
         <div class="services-row">
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-image"
               src="./img/services/01.svg"
@@ -79,7 +88,7 @@
               experience and a Bachelors of Arts degree in Media Studies.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-image"
               src="./img/services/02.svg"
@@ -92,7 +101,7 @@
               of a web application.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               class="service-card-image"
               src="./img/services/03.svg"
@@ -114,7 +123,7 @@
         <div class="potrfolio-title">
           <h2 class="title-1">PORTFOLIO</h2>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/01.jpg"
             alt="Online fashion store"
@@ -124,7 +133,7 @@
             <a href="#!">Online fashion store - Homepage</a>
           </h3>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/02.jpg"
             alt="Reebok store"
@@ -132,7 +141,7 @@
           />
           <h3 class="project-title"><a href="#!">Reebok store - Concept</a></h3>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/03.jpg"
             alt="Braun Landing Page"
@@ -150,16 +159,16 @@
         <div class="contacts-title">
           <h2 class="title-2">Contacts</h2>
         </div>
-        <div class="contacts-content">
+        <div class="contacts-content" data-aos="fade-down">
           <p>
             Want to know more or just chat?<br />
             You are welcome!
           </p>
         </div>
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-down">
           <a href="#!" class="btn">Send message</a>
         </div>
-        <div class="contacts-social">
+        <div class="contacts-social" data-aos="zoom-in">
           <a href="#!"
             ><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"
           /></a>
@@ -169,7 +178,7 @@
           <a href="#!"><img src="./img/socials/Behance.svg" alt="Behance" /></a>
           <a href="#!"><img src="./img/socials/Dribble.svg" alt="Dribble" /></a>
         </div>
-        <div class="contacts-footer">
+        <div class="contacts-footer" data-aos="fade-down">
           <p>Like me on <br />LinkedIn, Instargam, Behance, Dribble</p>
         </div>
       </div>
@@ -181,6 +190,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    
     <script src="./js/main.js"></script>
   </body>
 </html>

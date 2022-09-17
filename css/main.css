@@ -99,10 +99,17 @@ body {
 .services-row {
   display: flex;
   column-gap: 30px;
+  row-gap: 10px;
   justify-content: center;
+  flex-wrap: wrap;
+
 }
 
-
+.service-card {
+    text-align: center;
+    flex: 1 1 0;
+    min-width: 315px;
+}
 
 .service-card p {
   line-height: 2;
